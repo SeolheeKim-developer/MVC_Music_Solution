@@ -23,3 +23,27 @@ body {
 .form-floating {
     margin-bottom: 1rem;
 }
+@media screen and (max-width:1024px){
+    .bgimg {
+        width: 350px;
+        height: 250px;
+    }
+}
+/*tablet*/
+@media screen and (max-width: 768px) {
+    .bgimg {
+        width: 300px;
+        height: 200px;
+        
+    }
+    .title  {
+        font-size: 1rem;
+    }
+    .title-author {
+        font-size: 0.5rem;
+    }
+}
+/*phone*/
+@media screen and (max-width: 425px) {
+    
+}
